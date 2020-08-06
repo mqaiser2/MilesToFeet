@@ -15,6 +15,7 @@ namespace MilesToFeet
             Console.WriteLine("{0:F2} miles = {1} feet", miles, miles * MILES_RATIO);
             Console.WriteLine("{0:F2} miles = {1} inches", miles, miles * INCHES_RATIO);
 
+            Console.WriteLine("*********************************************************");
             Console.ReadLine();
         }
     }
